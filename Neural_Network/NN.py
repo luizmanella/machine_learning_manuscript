@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn import datasets
+from scipy.special import expit
 
 def iris_dataset_prepocessing():
     iris = datasets.load_iris()
@@ -47,21 +48,18 @@ class NeuralNetwork:
         self.theta_1 = np.random.normal(0, 0.1, size=(4, 4))
         self.theta_2 = np.random.normal(0, 0.1, size=(3, 4))
 
-    def softmax_activation(self, z):
-        exp_z = np.exp(z)
-        sum_z = np.sum(exp_z)
-        normalized = exp_z / sum_z
+    def logistic_activation(self, z):
 
-        return normalized
+        return expit(z)
 
     def forward_propagate(self, x):
         # first layer activation
         z_2 = np.matmul(self.theta_1, x)
-        a_2 = self.softmax_activation(z_2)
+        a_2 = self.logistic_activation(z_2)
 
         # second layer activation
         z_3 = np.matmul(self.theta_2, a_2)
-        a_3 = self.softmax_activation(z_3)
+        a_3 = self.logistic_activation(z_3)
 
         return a_2, a_3
 
