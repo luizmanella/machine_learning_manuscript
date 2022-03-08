@@ -4,9 +4,10 @@ This repo is to maintain a learning environment.
 		    GOALS
 ###############################################
 The main goal is to code the models I come across.
-I will try to code them myself and then use a 
-popular package as well. This will give me experience
-in both the common approach used by industries
+I will try to code them myself when possible (time
+constrains prevent this from always being the case)
+and use popular package as well. This will give me 
+experience in both the common approach used by industries
 and researchers, but will also force me to truly
 learn how the models work by programming my own
 version.
