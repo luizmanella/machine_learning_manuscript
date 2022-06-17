@@ -6,7 +6,4 @@ models that currently exist. By no means will it include everything since the wo
 this manuscript will also be a heavily condensed version of material since its main purpose will be as a quick reference book rather than a 
 pedagogical excerpt. As I go along my learning journey I will be coding along either projects, or functions themselves, that can be used. I will,
 on occasion, try and code things from scratch, but only if time permits me to do so. I would like to cover a lot of, what I call, base machine 
-learning topics through out this journey. The manuscript that goes with this project can be downloaded here:</p>
-<ul>
-    <li><a href="https://drive.google.com/file/d/1SPx9COZZj4Kt5uURYC8QKZuv23vTICdo/view?usp=sharing"> Manuscript</a></li>
-</ul>
+learning topics through out this journey. I am working on more complex projects too that will be posted separately if and when I have the time.</p>
